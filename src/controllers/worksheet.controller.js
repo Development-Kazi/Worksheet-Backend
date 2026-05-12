@@ -41,6 +41,7 @@ const createWorksheet = asyncHandler(async (req, res) => {
     tags,
     metaTitle,
     metaDescription,
+    metaKeywords,
     status = "active",
   } = req.body;
 
@@ -74,6 +75,7 @@ const createWorksheet = asyncHandler(async (req, res) => {
         : [],
     metaTitle,
     metaDescription,
+    metaKeywords,
     status,
   });
 

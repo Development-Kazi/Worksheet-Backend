@@ -20,6 +20,7 @@ const worksheetSchema = new Schema(
     tags: [String],
     metaTitle: String,
     metaDescription: String,
+    metaKeywords: String,
     status: { type: String, default: "active" },
   },
   { timestamps: true },
